@@ -1,1 +1,5 @@
-# final
+Lewis University SP23-CPSC-46000-LT1-Programming Languages
+
+Term Project Final
+
+This is Python code for evaluating Scheme expressions using the interpreter pattern. It defines the 'scheme_eval', 'scheme_apply', and 'eval_all' functions for evaluating Scheme expressions, as well as the 'optimize_tail_calls' function for optimizing tail-recursive calls. The code uses various modules, including 'sys', 'os', and 'ucb', as well as functions and classes defined in other modules such as 'pair', 'scheme_utils', and 'scheme_forms'. The 'scheme_eval' function evaluates Scheme expressions by first evaluating the atoms, then checking if the expression is a list or a combination, and finally evaluating the list using either special forms or procedure application. The 'scheme_apply' function applies Scheme procedures to their arguments in a given environment, and the 'eval_all' function evaluates a list of expressions in a given environment and returns the value of the last expression. The 'optimize_tail_calls' function optimizes tail-recursive calls by returning a properly tail-recursive version of the 'scheme_eval' function.
